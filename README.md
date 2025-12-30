@@ -25,6 +25,10 @@
 
 [![Демо](https://img.shields.io/badge/Демо-oakaffection.ru-00D4AA?style=flat)](https://oakaffection.ru)
 
+<img width="2851" height="1614" alt="image" src="https://github.com/user-attachments/assets/3296a9ea-9bc8-4613-bae2-ae9cf489ac9b" />
+<img width="2848" height="1613" alt="image" src="https://github.com/user-attachments/assets/dfb186f8-5332-4dc9-ae11-91a8f9b385cb" />
+
+
 **Flask + PostgreSQL + Nginx/Gunicorn deploy**
 - Чистый HTML/CSS/JS (+ анимации)
 - Админка собственной разработки
