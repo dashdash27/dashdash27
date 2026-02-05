@@ -16,11 +16,6 @@
 ```• Gunicorn ```
 
 
-**Сейчас изучаю:** 
-```• React ```
-```• FastAPI ```
-
-
 ## 🔥 Главный проект oakaffection.ru (LIVE e-commerce)
 
 [![Демо](https://img.shields.io/badge/Демо-oakaffection.ru-00D4AA?style=flat)](https://oakaffection.ru)
@@ -34,7 +29,7 @@
 - Чистый HTML/CSS/JS (+ анимации)
 - Админка собственной разработки
 - С нуля без ТЗ, scope creep
-- **В работе:** Ozon Pay + доставки API + корзина
+- **В работе:** Ozon Pay + доставки API + корзина с синхронизацией вкладок
 
 | Backend | Frontend | DevOps |
 |---------|----------|--------|
