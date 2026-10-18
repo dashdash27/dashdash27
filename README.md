@@ -1,41 +1,56 @@
-# 🖐Hi, I'm Daria Yatsenko
-**Python Developer | Math & CS Background**
+# 🖐️ Hi, I'm Daria Yatsenko
+**Python Backend Engineer | Fundamental CS & Math Background**
 
-**Software Engineer** with a strong mathematical background and **4.5+ years of engineering experience**. I specialize in **Full-cycle Web Development**: from System Design and Database Architecture to Infrastructure Setup and Production Deployment.
+I am a software engineer specializing in **System Design, database optimization, and high-throughput asynchronous architectures**. With a strong foundation in Applied Mathematics and low-level software R&D (C++, Assembly), I possess a deep understanding of memory management, concurrency, and system performance. 
 
+I take full ownership across the entire **SDLC** — from business requirements analysis and algorithmic design to bare-metal production deployment, security tuning, and automated infrastructure management.
+
+<div align="center">
+  <br>
+  <img style="width: 200px; max-width: 90%;" alt="scheme-git" src="https://github.com/user-attachments/assets/44e0e7c0-6ced-454c-8283-c46c57235d42" />
+
+  <br><i>Featured Project: Cost-Effective High-Performance Monolithic Architecture</i>
+</div>
 
 ---
 
-### 🛠 Technical Stack
-- **Backend**: `Python (FastAPI, Flask, Asyncio)`, `PostgreSQL`, `SQLAlchemy`, `Alembic`, `REST API`, `Pytest`, `Redis`
-- **Infrastructure**: `Docker`, `Linux (Nginx, Gunicorn)`, `CI/CD`, `Git (Gitflow)`, `SSL`
-- **Frontend**: `JavaScript (ES6+)`, `HTML5/CSS3 (Mobile First)`, `SEO`
-- **CS Core**: `Algorithms & Data Structures`, `C++`, `Java`, `Assembly`, `Discrete Math`
+## 🛠️ Technical Stack
+
+* **Backend & API:** Python (FastAPI, Flask, Asyncio, HTTPX), REST APIs, SQLAlchemy, Alembic, Pytest.
+* **Databases & Caching:** PostgreSQL (Advanced relational modeling, complex M2M, Self-referencing tables, Indexing optimization), SQLite (WAL-mode local caching), Redis, Raw SQL.
+* **Infrastructure & DevOps:** Linux (Bare-Metal, Bash scripting), Nginx Proxy, Gunicorn, Docker & Docker Compose, Kubernetes, CI/CD, SSL/TLS, Automated Backups.
+* **CS Core & Low-Level:** Algorithms & Data Structures, Multithreading, C++, Assembly, Discrete Mathematics.
+* **Frontend Integration:** Vanilla JS (ES6+), HTML5/CSS3 (BEM, Mobile-First), Performance & SEO optimization.
 
 ---
 
-### 🔥 Featured Projects
+## 🔥 Featured Production Projects
 
-#### 🛒 [E-commerce Platform](https://github.com/dashdash27/OakAffection) — [**Live Demo**](https://oakaffection.ru/)
-**Full-stack development of a scalable e-commerce solution from scratch to Production.**
-*   **Engineering Challenge:** Designed a custom CMS and implemented real-time cart synchronization using **BroadcastChannel API**. Dark/Light Themes.
-*   **Infrastructure:** Configured a secure **Production/Staging** environment on a Linux VPS with Nginx, Gunicorn, and SSL.
-*   **Stack:** `Python (Flask)`, `PostgreSQL`, `Nginx`, `Vanilla JS`, `HTML5/CSS3 (Mobile First)`.
+### 🛒 1. High-Performance E-Commerce Platform | [Live Demo](https://oakaffection.ru) • [Repository](https://github.com/dashdash27/OakAffection)
+*A conversion-centric, production-ready online store with a custom CMS and optimized automated logistics, deployed end-to-end as a cost-effective monolith.*
+* **Engineering Challenges:** 
+  * Designed a local geo-caching engine via **SQLite (WAL mode)** to map and store 80k+ delivery pickup points (ПВЗ) fetched dynamically via **DaData API**, reducing network latency to sub-millisecond local lookup speeds.
+  * Injected localized async orchestration using `asyncio.gather` and **HTTPX** inside a synchronous framework, polling multiple external carrier APIs concurrently and cutting checkout response times by **300%**.
+  * Shifted state management to `Local Storage` and synced cart data reactively across browser tabs using the **Broadcast Channel API**, slashing redundant backend traffic by **70%**.
+* **Infrastructure:** Bare-metal deployment on Linux VPS with `Nginx` (reverse proxy & rate limiting), `Gunicorn`, and automated systemd/cron services.
+* **Stack:** Flask, Asyncio, HTTPX, PostgreSQL, SQLite, Vanilla JS, Mobile-First CSS.
 
-#### 🧠 [Linkify (Zettelkasten)](https://github.com/dashdash27/Linkify)
-**Knowledge management system with complex Many-to-Many and Self-Join relations.**
-*   **Engineering Challenge:** Developed a recursive data model for non-linear knowledge structures and built an interactive analytics dashboard.
-*   **Stack:** `Flask`, `PostgreSQL`, `Jinja2 (Macros)`, `JS/AJAX`.
+### 🧠 2. Knowledge Management System (Zettelkasten) | [Repository]((https://github.com/dashdash27/Linkify))
+*A specialized knowledge management application designed for complex non-linear data structuring and recursive data visualization.*
+* **Engineering Challenges:** Developed a highly scalable relational data model featuring advanced **Many-to-Many** and **Self-Referencing (Self-Join)** database structures to represent infinite recursive note linking. Built an optimized interactive dashboard for graph-based knowledge analytics.
+* **Stack:** Flask, PostgreSQL, SQLAlchemy, Jinja2 (Advanced Macros), JS / AJAX.
 
-#### 🏗️ [Exchange Rate Monitor](https://github.com/dashdash27/rate-tracking-system)
-**Microservice-based application for real-time financial data tracking.**
-*   **Engineering Challenge:** Implemented a containerized architecture with robust error handling for external API integrations.
-*   **Stack:** `Python`, `Docker & Docker Compose`, `PostgreSQL`.
+### 🏗️ 3. Real-Time Exchange Rate Monitor | [Repository](https://github.com/dashdash27/rate-tracking-system)
+*A resilient, microservice-based financial data tracking application engineered for continuous high-frequency data ingestion.*
+* **Engineering Challenges:** Implemented a containerized architecture with a strict fault-tolerance layer, custom error handling, and transactional state management to prevent data gaps during external financial API failures.
+* **Stack:** Python, Docker & Docker Compose, PostgreSQL, Raw SQL integrations.
+
 ---
 
-### 🎓 Education & Background
-*   **B.S. in Software Engineering & Math Administration** (Honors Degree).
-*   Deep understanding of low-level programming (C++, Assembly) and complex algorithm optimization.
+## 🎓 Education & Research Background
+
+* **B.S. in Software Engineering & Math Administration (Honors Degree)**
+* Deep understanding of low-level programming concepts (C++, Assembly), concurrency models, and complex algorithm optimization.
 
 ---
 
