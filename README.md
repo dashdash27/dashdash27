@@ -35,7 +35,7 @@ I take full ownership across the entire **SDLC** — from business requirements 
 * **Infrastructure:** Bare-metal deployment on Linux VPS with `Nginx` (reverse proxy & rate limiting), `Gunicorn`, and automated systemd/cron services.
 * **Stack:** Flask, Asyncio, HTTPX, PostgreSQL, SQLite, Vanilla JS, Mobile-First CSS.
 
-### 🧠 2. Knowledge Management System (Zettelkasten) | [Repository]((https://github.com/dashdash27/Linkify))
+### 🧠 2. Knowledge Management System (Zettelkasten) | [Repository](https://github.com/dashdash27/Linkify)
 *A specialized knowledge management application designed for complex non-linear data structuring and recursive data visualization.*
 * **Engineering Challenges:** Developed a highly scalable relational data model featuring advanced **Many-to-Many** and **Self-Referencing (Self-Join)** database structures to represent infinite recursive note linking. Built an optimized interactive dashboard for graph-based knowledge analytics.
 * **Stack:** Flask, PostgreSQL, SQLAlchemy, Jinja2 (Advanced Macros), JS / AJAX.
@@ -54,5 +54,5 @@ I take full ownership across the entire **SDLC** — from business requirements 
 
 ---
 
-### 📫 Connect with me:
+## 📫 Connect with me:
 [LinkedIn](https://www.linkedin.com/in/daria-yatsenko-7819003b1/) • [Telegram](https://t.me/dasya_y) • dasshh27@gmail.com
